@@ -31,5 +31,35 @@ https://www.arduino.cc/en/Reference/HomePage
 
 https://create.arduino.cc/projecthub
 
+## Breadboard 
+
+## First code
+
+blink built in LED .
+learn about IDE, find example sketches. 
+look at code, setup{} loop{}. 
+plug in board, select board, select port.
+load sketch. 
+change sketch, load again. 
+
+## First circuit
+
+build LED circuit, plugged into rail (steady light).
+now want to control with arduino = plug into pin. 
+rewrite blink to blink LED (change PIN #).
+
+## Second circuit
+
+build light theremin circuit.
+open sketch.
+explain tone function / PWM.
+load sketch. buzz. 
+modify and reload.
+
+## Extra credit!
+
+1. build multiple blinking lights 
+2. combine blinking and light theremin (note: tone() interferes with pin 11 and 3, delay() interferes with pin 5 and 6)
+3. use another sensor to set variables for blink or theremin 
 
 
